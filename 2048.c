@@ -143,6 +143,9 @@ int move()
   char c = -1;
   scanf("%c", &c);
   int merged = 0;
+  int i = 0;
+  int len = 4;
+  int boxes[len];
   enum Directory dir;
   switch (c) 
   {
@@ -160,11 +163,10 @@ int move()
 	break;
     case 'q':
 	close_keyboard();
+	printf("Quit Game. Bye!\n");
+	exit(0);
 	break;
   }
-  int i = 0;
-  int len = 4;
-  int boxes[len];
   switch (dir) 
   {
     case Up:
