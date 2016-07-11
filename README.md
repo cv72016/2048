@@ -12,3 +12,8 @@
 ---------------------
 
 no record, score, just simple game logic.
+
+run unix(linux) only, no compatibility window. kbhit from vendor.
+
+# make: cc 2048.c kbhit.c
+# run: ./a.out
